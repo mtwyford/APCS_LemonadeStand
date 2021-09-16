@@ -1,6 +1,23 @@
-		//Starter Code from Class
-
-		/*Methods?
+//Starter Code from Class
+/* Where to begin?
+*  Imagine we are building the Blueprints for Making the Costco Lemonade Stand in a Box
+*  We need to know what to include in the box, and what to include in the instruction manual
+*
+* Suppose we call the person who runs the stand the 'seller' and each person that buys lemnade a 'customer'
+*  It makes sense that the seller will need to buy certain things, but I can put a sticker on the table for where they go when making the Lemonade, 
+*  a suggested recipe book, and options for you to customize, etc - including any advice - like start small
+*  - you should't buy a case of lemons the first time you try selling lemonade, of course.
+*
+* So - what supplies come in the box?  a table, a pitcher, a sign, a jar for money, etc.
+*
+* What things will you need to buy? (What things might change, depending on how the person will choose to play the game?
+* - Lemons
+* - Sugar 
+* - Ice 
+* - Cups (Disposable)
+*
+* What things will need to be done 
+/*Methods?
 		makeLemonade?
 		sellLemonade?
 		shrink? lose an item  - ice melts, lemons rot, 
