@@ -29,7 +29,7 @@
 *
 */
 
-
+/* public class is the start of any java file... it defines the blueprint */
 public class LemonadeStand {
 
 		int numLemons;  //things to Buy
@@ -42,17 +42,26 @@ public class LemonadeStand {
 		double weatherScore; //think about
 		int numCustomers;  //determined by weather, your rating, etc
 
-		//CONSTRUCTOR
+		/*CONSTRUCTOR -  The IKEA instruction manual - what you'll need to setup or start the game.
+		*		what you should set things up for your first monopoloy game etc */
+	
 		public LemonadeStand() {
 			numLemons = 9;
 			cupsSugar = 9;
 			cupsIce=9;
-			
 		}
 
-
-
-		public void makeLemonade() {  //DEFAULT METHOD - this is for an *easy* game where we don't need to set a specific formula for 
+		/* OVERLOADED CONSTRUCTOR - If I want a CUSTOM Game, i will use specifics about how much inventory to start with etc.
+		 ***** Will leave this commented out for now.
+		public LemonadeStand(int lemons, int sugar, int ice) {
+			numLemons = 9;
+			cupsSugar = 9;
+			cupsIce=9;
+		}
+		*/
+		
+		/* Method makeLemonade is the __DEFAULT METHOD__ - this is for an *easy* game where we don't need to set a specific formula for 
+		public void makeLemonade() {  
 			//recipe? 3 numLemons + 3 cupsSugar + 3 cupsIce
 			//to make a pitcher, add 1 to the count of num pitcher
 			if (numLemons>=3 && cupsSugar>=3 && cupsIce >=3) {
@@ -62,6 +71,7 @@ public class LemonadeStand {
 				cupsIce-=3;
 			}
 		}
+	
 		/* OVERLOADED METHOD - a 'custom method' passing in arguments ** */										
 		public void makeLemonade(int nL, int cS, int cI) {
 			//recipe? 3 numLemons + 3 cupsSugar + 3 cupsIce
