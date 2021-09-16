@@ -1,4 +1,6 @@
 # APCS_LemonadeStand
+
+## Careful - there is a stee learning curve here - so deep breath and we'll get through it.
 StarterCode and Instructions for your first project
 
 What's GitHub and How Is it Used? https://www.youtube.com/watch?v=w3jLJU7DT5E
