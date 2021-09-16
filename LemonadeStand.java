@@ -26,7 +26,7 @@
 * 	account for shrink? lose an item  - ice melts, lemons rot, 
 * 	Log dailyBatch?
 *
-*
+* *** NOTICE THE LACK OF PSVMSA *** 
 */
 
 /* public class is the start of any java file... it defines the blueprint */
@@ -61,6 +61,8 @@ public class LemonadeStand {
 		*/
 		
 		/* Method makeLemonade is the __DEFAULT METHOD__ - this is for an *easy* game where we don't need to set a specific formula for 
+		* 	making each pitcher of lemonade.
+		*/
 		public void makeLemonade() {  
 			//recipe? 3 numLemons + 3 cupsSugar + 3 cupsIce
 			//to make a pitcher, add 1 to the count of num pitcher
@@ -69,6 +71,7 @@ public class LemonadeStand {
 				numLemons-=3;  //numLemons = numLemons - 3
 				cupsSugar-=3;
 				cupsIce-=3;
+				//did we define how many cups in a pitcher of lemonade?
 			}
 		}
 	
