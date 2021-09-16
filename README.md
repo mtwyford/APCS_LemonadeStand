@@ -4,9 +4,9 @@
 
 StarterCode and Instructions for your first project
 
-What's GitHub and How Is it Used? https://www.youtube.com/watch?v=w3jLJU7DT5E
+What's GitHub and How Is it Used? https://www.youtube.com/watch?v=w3jLJU7DT5E (please watch this 5 minute video
 
-A quick self paced course: https://lab.github.com/githubtraining/introduction-to-github
+A quick self paced course: https://lab.github.com/githubtraining/introduction-to-github (optional, longer activity)
 
 
 This project will be an opportunity for you to refresh skills on GitHub, and practice version control.
@@ -23,3 +23,8 @@ where the original working version will be the main 'branch' and other versions 
   - Question: what controls the game experience?  The User or the Software?  Are you in control of the game?  Or only elements?
   - Consider why this is important to how you design the game.
   
+### Step 3 - Think about variables and methods() - We ar going to start with a simple class.
+
+  - We know that every file needs a class header in the beginning or near the top
+  - Only import statements come before the game.
+  - So - at first - we are simply going to draw Blueprints for making a "Costco Lemonade Stand in a Box"
