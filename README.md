@@ -29,4 +29,5 @@ where the original working version will be the main 'branch' and other versions 
   - Only import statements come before the game.
   - So - at first - we are simply going to draw Blueprints for making a **Costco Lemonade Stand in a Box**.
   - We'll design a program to make a **generic** Lemonade Stand - and not try to start selling 
-  - - think building in garage first - and writing the business plan and emplyee manual
+   - think building in garage first, and writing the business plan and emplyee manual
+   - Let's head over to the LemonadeStand.java file.
