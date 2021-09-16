@@ -8,7 +8,7 @@ What's GitHub and How Is it Used? https://www.youtube.com/watch?v=w3jLJU7DT5E (p
 
 A quick self paced course: https://lab.github.com/githubtraining/introduction-to-github (optional, longer activity)
 
-Did you play the game?  [Here's agood read](https://itstillworks.com/12414357/how-to-get-tons-of-money-on-lemonade-stand)
+Did you play the game?  [Here's a good read](https://itstillworks.com/12414357/how-to-get-tons-of-money-on-lemonade-stand)
 
 
 This project will be an opportunity for you to refresh skills on GitHub, and practice version control.
