@@ -1,4 +1,5 @@
 //Starter Code from Class
+
 /* Where to begin?
 *  Imagine we are building the Blueprints for Making the Costco Lemonade Stand in a Box
 *  We need to know what to include in the box, and what to include in the instruction manual
@@ -16,23 +17,30 @@
 * - Ice 
 * - Cups (Disposable)
 *
-* What things will need to be done 
-/*Methods?
-		makeLemonade?
-		sellLemonade?
-		shrink? lose an item  - ice melts, lemons rot, 
-		dailyBatch?
-		*/
+* What things will need to be done by the seller in order to make money?
+* 	buyInventory?
+* 	setRecipe (otional for advanced games)
+* 	makeLemonade?
+* 	setPrice for Lemonady?
+* 	sellLemonade?
+* 	account for shrink? lose an item  - ice melts, lemons rot, 
+* 	Log dailyBatch?
+*
+*
+*/
+
+
 public class LemonadeStand {
 
-		int numLemons;
+		int numLemons;  //things to Buy
 		int cupsSugar;
 		int cupIce;
-		int numCups;		//recipe??
-		int numPitchers;
-		int numCustomers;  //
+		int numCups; 
+		int numPitchers; //not purchasing pitchers - but how many cups are you able to make based on inventory?
+		
 		double pricePerCup;
 		double weatherScore; //think about
+		int numCustomers;  //determined by weather, your rating, etc
 
 		//CONSTRUCTOR
 		public LemonadeStand() {
@@ -44,7 +52,7 @@ public class LemonadeStand {
 
 
 
-		public void makeLemonade() {  //DEFAULT METHOD
+		public void makeLemonade() {  //DEFAULT METHOD - this is for an *easy* game where we don't need to set a specific formula for 
 			//recipe? 3 numLemons + 3 cupsSugar + 3 cupsIce
 			//to make a pitcher, add 1 to the count of num pitcher
 			if (numLemons>=3 && cupsSugar>=3 && cupsIce >=3) {
